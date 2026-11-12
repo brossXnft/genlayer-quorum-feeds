@@ -1,0 +1,34 @@
+{
+  "chain_id": 4221,
+  "network": "bradbury",
+  "address": "0x0aa3eefa8769c5a3c16a65eff8ef0bcdd4a3a3ba",
+  "sha256": "8163bf68aa1a6275e86d896f689b126298ee4733a63171431691d0cddf47593d",
+  "size": 257662,
+  "deploy_tx": "0x5f8dc3b1c7e0991742aafced19323ab942e79992272a786722413b4d8be74396",
+  "evidence": [
+    {
+      "what": "`create_feed` BTC-USD (4 exchanges, tol 50 bps, min 3, spread 200 bps)",
+      "tx": "0x2c32079d0a3c58e25b3ba1df2587e1ef6a4eb32de3d4711a6cd7db82748f1ba2"
+    },
+    {
+      "what": "`create_feed` ETH-USD",
+      "tx": "0x7216d93370398e77e3a6bc7a6fa165298b81a729dbc64477e10d7fbd3fb26a6f"
+    },
+    {
+      "what": "`create_feed` EUR-USD (ECB reference rate + 2 market sources)",
+      "tx": "0xfb78b752fe271cc348249937b5c23452de1e56f0c166aca1e1dc4cfe5f34d65f"
+    },
+    {
+      "what": "`update` BTC-USD: 4/4 sources kept, 71,921.35 USD, 5/5 agree",
+      "tx": "0x9b99472fb6f70e043b961320867b3d289667fdb870afb8559de9fa3fee71416e"
+    },
+    {
+      "what": "`update` ETH-USD: 4/4 sources kept, 2,019.96 USD, 5/5 agree",
+      "tx": "0x1d5dd5e87b71627c3e9eca46b94da0aa13173ff8411d814c8fba063d18f1b0c4"
+    },
+    {
+      "what": "`update` EUR-USD: 3/3 sources kept, 1.1081 USD, 5/5 agree",
+      "tx": "0x4ea95045f3d42498bba2cbdd1f760671d7b91118b53dd866bba75907800f752e"
+    }
+  ]
+}
