@@ -77,6 +77,10 @@ Transactions that exercise the contract on Bradbury (all finalized with 5 valida
 | `update` BTC-USD: 4/4 sources kept, 71,921.35 USD, 5/5 agree | [`0x9b99472fb6f70e04…`](https://scan.bradbury.genlayer.com/tx/0x9b99472fb6f70e043b961320867b3d289667fdb870afb8559de9fa3fee71416e) |
 | `update` ETH-USD: 4/4 sources kept, 2,019.96 USD, 5/5 agree | [`0x1d5dd5e87b71627c…`](https://scan.bradbury.genlayer.com/tx/0x1d5dd5e87b71627c3e9eca46b94da0aa13173ff8411d814c8fba063d18f1b0c4) |
 | `update` EUR-USD: 3/3 sources kept, 1.1081 USD, 5/5 agree | [`0x4ea95045f3d42498…`](https://scan.bradbury.genlayer.com/tx/0x4ea95045f3d42498bba2cbdd1f760671d7b91118b53dd866bba75907800f752e) |
+| Python contract `examples/consumer.py` deployed with this oracle's address | [`0xbf1de48a87cf5deb…`](https://scan.bradbury.genlayer.com/tx/0xbf1de48a87cf5deb19cf2a67a1a060fdcaae064ec69cce25587a00fecd8487ac) |
+| Python `snapshot("BTC-USD", 3600)` reads `latest_fresh` from the Rust oracle inside a transaction: stores 71921.35 USD | [`0x46528eb3d84f4143…`](https://scan.bradbury.genlayer.com/tx/0x46528eb3d84f4143a32dc369bda54053977f55ed7cda3030effb6294edff4b68) |
+
+Python consumer contract: [`0xfa95567fcf4eb27e0df3a6cb8d1b5c47287a5e99`](https://scan.bradbury.genlayer.com/address/0xfa95567fcf4eb27e0df3a6cb8d1b5c47287a5e99).
 
 ## Build and deploy
 
